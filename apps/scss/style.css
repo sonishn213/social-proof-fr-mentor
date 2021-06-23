@@ -58,9 +58,9 @@ body {
 
 @media screen and (min-width: 1000px) {
   .main {
-    width: 100%;
-    margin: 0;
-    padding: 130px 166px 100px 166px;
+    width: 1110px;
+    margin: 0 auto;
+    padding: 130px 0 100px 0;
   }
 }
 
