@@ -1,0 +1,58 @@
+.second-section {
+  text-align: left;
+  max-width: 350px;
+  flex-direction: column;
+  &__testimonials {
+    width: 100%;
+    background-color: $very-dark-magenta;
+    border-radius: 8px;
+    padding: 35px;
+    font-size: 13px;
+
+    color: $white;
+
+    & .profileinfo {
+      width: 100%;
+      > span {
+        display: inline-block;
+      }
+      .pic {
+        width: 42px;
+        height: 42px;
+        border-radius: 50px;
+        overflow: hidden;
+        text-align: center;
+        img {
+          display: inline-block;
+          width: 42px;
+          height: 42px;
+        }
+      }
+      & .info {
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        padding: 2px 0;
+        margin-left: 25px;
+        > span {
+          display: block;
+        }
+        .name {
+          font-weight: bold;
+        }
+        .veribuyer {
+          color: $soft-pink;
+        }
+      }
+    }
+    .comment {
+      line-height: 1.7;
+      margin-top: 28px;
+      letter-spacing: -0.4px;
+      font-size: 13px;
+    }
+  }
+  &__testimonials:nth-child(2) {
+    margin: 18px 0;
+  }
+}
